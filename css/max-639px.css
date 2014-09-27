@@ -1,6 +1,52 @@
 /* max-width: 639px */
 
+.motto {
+    color: #0098ce;
+}
+.row {
+    padding-top: 10px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #0098ce;
+    -moz-box-shadow: 0 0 5px #000000;
+    -webkit-box-shadow: 0 0 5px #000000;
+    box-shadow: 0 0 5px #000000;
+}
+#p1 {
+    background-color: white;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    -moz-box-shadow: 0 0 10px #f7a800;
+    -webkit-box-shadow: 0 0 10px #f7a800;
+    box-shadow: 0 0 10px #f7a800;
+}
+.homepage h4 {
+    text-align: center;
+    padding-top: 10px;
+}
 .col-lg-6 {
     width: auto;
     float: none;
+    padding: 15px;
+}
+.view-first {
+    -moz-box-shadow: 0 0 5px #000000;
+    -webkit-box-shadow: 0 0 5px #000000;
+    box-shadow: 0 0 5px #000000;
+}
+.motto {
+    /*background: -webkit-linear-gradient(bottom, #B8DDE1, white); /*For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(top, #B8DDE1, white); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(top, #B8DDE1, white); /* For Firefox 3.6 to 15 
+    background: linear-gradient(to top, #B8DDE1, white); /* Standard syntax */
+    background: white;
+}
+.homepage {
+    background-image: none;
+    background-color: white;
+}
+
+.footer {
+    background-color: white;
 }
