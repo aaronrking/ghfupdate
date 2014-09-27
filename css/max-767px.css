@@ -1,0 +1,28 @@
+/* max-width: 767px */
+
+.jumbotron {
+    height: 200px;
+    width: auto;
+    margin: auto;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.header {
+    background-size: contain;
+    background-position: center;
+    width: auto;
+    height: 150px;
+    margin: 0 15px 15px 15px;
+}
+.motto p {
+    font-size: 22px;
+}
+.homepage p {
+    font-size: 12px;
+}
+.row{
+    margin-top: 15px;
+}
+.footer {
+    font-size: 12px;
+}

@@ -1,0 +1,14 @@
+/* max-width: 386px */
+
+.view-first {
+    width: auto;
+}
+.view .mask, .view .content {
+    width: auto;
+}
+.view h2 {
+    font-size: 1em;
+}
+.view p {
+    font-size: .75em;
+}
