@@ -1,0 +1,27 @@
+/* max-width: 565px */
+
+#social-bar .copy {
+   display: block;
+   width: 213px;
+   height: 100%;
+   margin: 0 auto;
+   float: none;
+}
+
+#social-bar .email, #social-bar .icons {
+   display: block;
+   height: 100%;
+   margin: 0 auto;
+   float: none;
+}
+
+#social-bar .email {
+    width: 241px;
+}
+
+#social-bar .icons {
+    width: 151px;
+}
+#social-bar a:first-child {
+    padding-left: 0;
+}

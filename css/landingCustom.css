@@ -15,14 +15,14 @@ body {
 }
 .motto{
     text-align: center;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: 30px;
     font-weight: 400;
-    background: -webkit-linear-gradient(bottom, #f7f0e1, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(top, #f7f0e1, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, #f7f0e1, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to top, #f7f0e1, white); /* Standard syntax */
-    /* background-color: #f7f0e1; */
+    background: -webkit-linear-gradient(bottom, #f7faf9, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, #f7faf9, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #f7faf9, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, #f7faf9, white); /* Standard syntax */
+    /* background-color: #f7f0e1; old picture */
     color: #0098ce;
     font-variant: small-caps;
 }
@@ -30,14 +30,14 @@ body {
     margin-bottom: 0;
 }
 .jumbotron {
-    background-image: url("../images/yoga6-1.png");
+    background-image: url("../images/reiki-1.png");
     margin-bottom: 10px;
     width: 700px;
-    height: 350px;
+    height: 360px;
 }
 .homepage {
-    background-image: url("../images/guate5-bot1.png");
-    border-color: #f7f0e1;
+    background-image: url("../images/guate0414-1.png");
+    /* border-color: #f7f0e1; --> for old picture */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center bottom;
@@ -45,7 +45,8 @@ body {
 }
 .row {
     padding: 0px 5px 10px;
-    background-color: rgba(247,240,225,0.7);
+    background-color: rgba(247,250,249,0.7);
+    /* background-color: rgba(247,240,225,0.7); old color */
     /* background-color: #f7f0e1; 
     opacity: 0.7; */
     text-align: left;
@@ -111,7 +112,7 @@ p.address {
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 14px;
     padding: 10px;
     background: rgba(0,0,0,0.8);
     margin: 10px 0 0 0
@@ -127,6 +128,7 @@ p.address {
 }
 .view a.info {
     font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 12px;
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
@@ -198,7 +200,11 @@ p.address {
     border-color: #f7a800;
 }
 
-#social-bar {
+#social-bar .copy {
+    float: left;
+}
+
+#social-bar .email, #social-bar .icons {
     float: right;
 }
 
@@ -215,26 +221,6 @@ p.address {
 
 #social-bar a span {
     margin: 0;
-}
-
-#social-bar a .facebook {
-    color: #3b5998;
-}
-
-#social-bar a .twitter {
-    color: #00aced;
-}
-
-#social-bar a .youtube {
-    color: #b31217;
-}
-
-#social-bar a .google {
-    color: #e14107;
-}
-
-#social-bar .icon-rss {
-    background: #e5842f;
 }
 
 #social-bar .fa-facebook-square {
