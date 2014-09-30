@@ -1,0 +1,8 @@
+/* min-width: 640px, max-width: 682px */
+
+.view-first {
+    width: auto;
+}
+.view .mask, .view .content {
+    width: auto;
+}
