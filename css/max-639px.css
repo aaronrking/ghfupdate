@@ -30,6 +30,9 @@
     float: none;
     padding: 15px;
 }
+p.caption {
+    margin-bottom: 3px;
+}
 .view-first {
     -moz-box-shadow: 0 0 5px #000000;
     -webkit-box-shadow: 0 0 5px #000000;

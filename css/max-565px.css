@@ -1,25 +1,30 @@
 /* max-width: 565px */
 
-#social-bar .copy {
-   display: block;
+.foot-left {
    width: 213px;
    height: 100%;
    margin: 0 auto;
    float: none;
 }
 
-#social-bar .email, #social-bar .icons {
+.foot-right {
+    float: none;
+    width: auto;
+}
+
+#email, #social-bar {
    display: block;
    height: 100%;
    margin: 0 auto;
    float: none;
 }
 
-#social-bar .email {
-    width: 241px;
+#email {
+    width: 70px;
+    margin-bottom: 10px;
 }
 
-#social-bar .icons {
+#social-bar {
     width: 151px;
 }
 #social-bar a:first-child {
