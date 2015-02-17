@@ -31,13 +31,13 @@ body {
     font-weight: 400;
 }
 .jumbotron {
-    background-image: url("../images/yoga6-1.png");
+    background-image: url("../images/yoga6-1.jpg");
     margin-bottom: 10px;
     width: 700px;
     height: 350px;
 }
 .homepage {
-    background-image: url("../images/guate5-bot.jpg");
+    background-image: url("../images/guate5-bot-min.jpg");
     /* border-color: #f7f0e1; --> for old picture */
     background-repeat: no-repeat;
     background-attachment: scroll;
