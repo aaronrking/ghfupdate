@@ -1,10 +1,7 @@
 /* max-width: 767px */
 
 .jumbotron {
-    width: auto;
-    margin: auto;
-    margin-bottom: 15px;
-    background-size: cover;
+    margin-bottom: 0px;
 }
 .header {
     background-size: contain;
@@ -20,7 +17,7 @@
     font-size: 12px;
 }
 .row{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .footer {
     font-size: 12px;

@@ -2,4 +2,15 @@
 
 .jumbotron {
     height: 200px;
+    background-attachment: scroll;
+}
+.jumbotron p, .jumbotron img {
+    display: none;
+}
+.header {
+    display: block;
+    margin-top: 25px;
+}
+.homepage p {
+    color: black;
 }

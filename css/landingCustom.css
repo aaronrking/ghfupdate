@@ -1,6 +1,8 @@
 /* Custom stylesheet for GHF landing page */
 
 body {
+    margin-top: -15px;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 .header {
@@ -8,48 +10,89 @@ body {
     background: url("../images/GHF_Final_Logo_sm.png") no-repeat scroll 0% 0% transparent;
     width: 500px;
     height: 209px;
-    display: block;
+    display: none;
     margin: 0px auto 20px;
     border: 0;
 }
+.jumbotron {
+    background-image: url("../images/GHFcover-crop.jpg");
+    margin-bottom: 0px;
+    padding: 0px;
+    border-bottom: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 615px;
+}
+.jumbotron p {
+    text-align: left;
+}
+.jumbotron img {
+    display: inline;
+    float: left;
+    margin-top: 368px;
+    margin-left: 50px;
+    background-color: rgba(255,255,255,.8);
+    padding: 15px;
+    border-radius: 20px;
+}
 .motto {
     text-align: center;
-    background: -webkit-linear-gradient(bottom, #f7f0e1, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(top, #f7f0e1, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, #f7f031, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to top, #f7f0e1, white); /* Standard syntax */
+    /*background: -webkit-linear-gradient(bottom, #0098ce, rgba(255,255,255,.9)); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(top, #0098ce, rgba(255,255,255,.9)); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(top, #0098ce, rgba(255,255,255,.9)); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(to top, #0098ce, rgba(255,255,255,.9)); /* Standard syntax */
     /* background-color: #f7f0e1; old picture */
-    color: #0098ce;
-    font-variant: small-caps;
+    background-color: #0098ce;
+    color: white;
+    padding: 10px;
+    position: relative;
 }
 .motto h1 {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 4px;
+    font-variant: small-caps;
     font-family: 'Cinzel', serif;
-    font-size: 25px;
+    font-size: 1.9em;
     font-weight: 400;
+    margin: 0px;
 }
-.jumbotron {
-    background-image: url("../images/yoga6-1.jpg");
-    margin-bottom: 10px;
-    width: 700px;
-    height: 350px;
+.container {
+    max-width: 1200px;
 }
 .homepage {
-    background-image: url("../images/guate5-bot-min.jpg");
+    /*background-image: url("../images/guate5-bot-min.jpg"); */
     /* border-color: #f7f0e1; --> for old picture */
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center bottom;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: white;
 }
-.row {
-    padding: 0px 5px 10px;
-    background-color: rgba(247,240,225,0.7);
+.marketing {
+    display: none;
+    padding: 30px 15px;
+    /*background-color: rgba(255,255,225,0.7); */
     /* background-color: #f7f0e1; 
     opacity: 0.7; */
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #0098ce;
+    -moz-box-shadow: 0 0 5px #000000;
+    -webkit-box-shadow: 0 0 5px #000000;
+    box-shadow: 0 0 5px #000000;
     text-align: left;
+}
+.lgrow {
+    margin: 25px 0px;
+    font-size: 1.25em;
+}
+.sec2{
+    background-image: url("../images/GHFreiki-bg.jpg");
+    margin-bottom: 0px;
+    padding: 0px;
+    border-bottom: 0px;
+    background-size: cover;
+    background-position: center top;
+    height: 500px;
 }
 p.address {
     text-align: center;
@@ -61,6 +104,7 @@ form.paypal {
 }
 p.caption {
     text-align: center;
+    padding-top: 14px;
     margin-top: 10px;
     margin-bottom: 1px;
     font-size: .8em;
@@ -91,11 +135,57 @@ p.caption {
     color: black;
     font-family: 'Roboto', Helvetica, sans-serif;
 }
+.sec2 p {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.sec2 h4 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.9em;
+    font-weight: 900;
+    text-shadow: 1px 1px black;
+    margin-top: 15px;
+}
+.sec2 hr {
+  border-top: 2px solid #0098ce;
+  width: 180px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.sec3 h4 {
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom:5px;
+}
+.sec3 hr {
+  border-top: 1px solid #0098ce;
+  width: 160px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.sec3 p {
+    text-align: center;
+}
+.sec3 img {
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,152,206,.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,152,206,.75);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.sec3 img:hover {
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(247,168,0,.75);
+    box-shadow: 0px 0px 15px 10px rgba(247,168,0,.75);
+}
+
 /* Slideshow image/link */
 .view {
     width: 300px;
     height: 200px;
     margin: auto;
+    margin-bottom: 5px;
     float: none;
     border: 3px solid white;
     overflow: hidden;
@@ -129,7 +219,7 @@ p.caption {
 }
 .view p {
     font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-style: italic;
     position: relative;
     color: #fff;
@@ -201,34 +291,78 @@ p.caption {
     margin: 0;
     padding-top: 9px;
     padding-bottom: 9px;
-    /* background-color: #f7f0e1;
-    opacity: 0.7; */
-    background-color: rgba(247,240,225,0.7);
+    background-color: white;
+    /*background-color: rgba(247,240,225,0.7); */
     color: black;
     margin-bottom: 0px;
     font-family: 'Roboto', Helvetica, sans-serif;
     border-color: #f7a800;
 }
-
+.footer a:hover {
+    text-decoration: none;
+    color: #f7a800;
+}
 .foot-left {
+    display: inline;
     float: left;
     width: auto;
 }
-
 .foot-right {
+    display: inline;
     text-align: right;
     float: right;
     width: auto;
 }
+.foot-left p {
+    margin-bottom: 5px;
+}
 
+#box {
+    display: inline-flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    float: right;
+    height: 197px;
+    width: 430px;
+    margin: 378px 40px 0px 0px;
+    background-color: rgba(255,255,255,.8);
+    padding: 15px;
+    border-radius: 20px;
+}
+#motto {
+    text-align: center;
+    line-height: normal;
+    font-variant: small-caps;
+    color: #0098ce;
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+#p1 {
+    background-color: white;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    -moz-box-shadow: 0 0 10px #f7a800;
+    -webkit-box-shadow: 0 0 10px #f7a800;
+    box-shadow: 0 0 10px #f7a800;
+}
+#addressbox {
+    margin-top: 70px;
+    padding-top: 20px;
+    height: 178px;
+    width: 380px;
+    background-color: rgba(0,0,0,.65);
+    border-radius: 20px;
+}
 #email {
     margin-bottom: 5px;
     /*margin-right: 5px;*/
 }
 
-#email, #social-bar {
+/*#email, #social-bar {
     float: right;
-    width: 100%;
+    width: 100%; */
 }
 
 #social-bar a {
@@ -284,3 +418,4 @@ p.caption {
 #social-bar a:hover .fa {
     color: #f7a800;
     transition: color 0.5s ease;
+}

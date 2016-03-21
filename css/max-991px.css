@@ -1,10 +1,26 @@
 /* max-width: 991px */
 
 .jumbotron {
-    height: 320px;
+    height: 500px;
+}
+.jumbotron img {
+    float: none;
+    margin: 263px 0 0 0;
+}
+.jumbotron p {
+    text-align: center;
+}
+#box, #motto {
+    display: none;
+}
+.motto, .motto h1 {
+    display: block;
 }
 .motto h1 {
-    font-size: 24px;
+    font-size: 1.7em;
+}
+.row {
+    margin-top: 10px;
 }
 .col-lg-6 {
     width: 50%;
