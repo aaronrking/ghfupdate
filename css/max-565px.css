@@ -1,10 +1,10 @@
 /* max-width: 454px */
 
-.foot-left {
+/*.foot-left {
    display: block;
    width: 213px;
    /*height: 100%;*/
-   margin: 0 auto;
+   /*margin: 0 auto;
    float: none;
 }
 .foot-right {
@@ -19,19 +19,16 @@
 #social-bar {
    margin-bottom: 10px;
 }
-
-/*#email, #social-bar {
+#email, #social-bar {
    display: block;
    height: 100%;
    margin: 0 auto;
    float: none;
 }
-
 #email {
     width: 70px;
     margin-bottom: 10px;
 }
-
 #social-bar {
     width: 151px;
 }

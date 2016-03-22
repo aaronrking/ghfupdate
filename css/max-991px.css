@@ -10,9 +10,6 @@
 .jumbotron p {
     text-align: center;
 }
-#box, #motto {
-    display: none;
-}
 .motto, .motto h1 {
     display: block;
 }
@@ -22,7 +19,21 @@
 .row {
     margin-top: 10px;
 }
+.lgrow {
+    font-size: 1.15em;
+}
 .col-lg-6 {
     width: 50%;
     float: left;
+}
+.foot-left p, .foot-right p, .foot-right a {
+    font-size: 1em;
+}
+#box, #motto {
+    display: none;
+}
+#addressbox {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }

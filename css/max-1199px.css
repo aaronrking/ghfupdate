@@ -1,6 +1,9 @@
-/* max-width: 1199px */
+/* max-width: 1182px */
 
 .col-lg-6 {
     width: 50%;
     float: left;
+}
+.sec3 .col-lg-7 {
+    margin-top: 15px;
 }

@@ -153,6 +153,12 @@ p.caption {
   margin-top: 0px;
   margin-bottom: 10px;
 }
+.sec3 .col-lg-7 {
+    margin-top: 90px;
+}
+.sec3 .col-lg-5 {
+    margin-top: 25px;
+}
 .sec3 h4 {
     text-align: center;
     font-size: 1.9em;
@@ -291,12 +297,15 @@ p.caption {
     margin: 0;
     padding-top: 9px;
     padding-bottom: 9px;
-    background-color: white;
+    background-color: #7d868c;
     /*background-color: rgba(247,240,225,0.7); */
-    color: black;
     margin-bottom: 0px;
     font-family: 'Roboto', Helvetica, sans-serif;
     border-color: #f7a800;
+}
+.footer p, .footer a {
+    color: white;
+    font-size: 1.1em;
 }
 .footer a:hover {
     text-decoration: none;
@@ -355,6 +364,10 @@ p.caption {
     background-color: rgba(0,0,0,.65);
     border-radius: 20px;
 }
+#watch {
+    color: #f7a800;
+    text-shadow: 1px 1px rgba(0,0,0,.2);
+}
 #email {
     margin-bottom: 5px;
     /*margin-right: 5px;*/
@@ -378,11 +391,11 @@ p.caption {
     margin-right: 0px;
 }
 
-/* Set icon color related to the service */
-
 #social-bar a span {
     margin: 0;
 }
+
+/* Set icon color related to the service */
 
 #social-bar .fa-facebook-square {
     color: #3B5998;

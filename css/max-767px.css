@@ -13,12 +13,9 @@
 .motto h1 {
     font-size: 22px;
 }
-.homepage p {
-    font-size: 12px;
+.lgrow {
+    font-size: 1.05em;
 }
-.row{
+.row {
     margin-top: 10px;
-}
-.footer {
-    font-size: 12px;
 }

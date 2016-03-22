@@ -23,15 +23,6 @@
     margin-top: 0px;
     margin-bottom: 20px;
 }
-#p1 {
-    background-color: white;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    -moz-box-shadow: 0 0 10px #f7a800;
-    -webkit-box-shadow: 0 0 10px #f7a800;
-    box-shadow: 0 0 10px #f7a800;
-}
 .homepage h4 {
     text-align: center;
     padding-top: 10px;
@@ -53,7 +44,59 @@ p.caption {
     background-image: none;
     background-color: white;
 }
-
 .footer {
     background-color: white;
+}
+.footer p, .footer a {
+    color: black;
+}
+.foot-left {
+   display: block;
+   width: auto;
+   /*height: 100%;*/
+   margin: 0 auto;
+   float: none;
+}
+.foot-left p {
+    text-align: center;
+}
+.foot-right {
+   display: block;
+   float: none;
+   width: auto;
+   margin: 0 auto;
+}
+#email, #social-bar {
+   text-align: center;
+}
+#social-bar {
+   margin-bottom: 10px;
+}
+
+/*#email, #social-bar {
+   display: block;
+   height: 100%;
+   margin: 0 auto;
+   float: none;
+}
+
+#email {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+#social-bar {
+    width: 151px;
+}
+#social-bar a:first-child {
+    padding-left: 0;
+} */
+#p1 {
+    background-color: white;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    -moz-box-shadow: 0 0 10px #f7a800;
+    -webkit-box-shadow: 0 0 10px #f7a800;
+    box-shadow: 0 0 10px #f7a800;
 }
