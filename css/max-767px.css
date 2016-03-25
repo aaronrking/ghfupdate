@@ -2,6 +2,7 @@
 
 .jumbotron {
     margin-bottom: 0px;
+    background-attachment: scroll;
 }
 .header {
     background-size: contain;
@@ -14,8 +15,11 @@
     font-size: 22px;
 }
 .lgrow {
-    font-size: 1.05em;
+    font-size: 1em;
 }
 .row {
     margin-top: 10px;
+}
+.viewlg p {
+    font-size: 1.2em;
 }
