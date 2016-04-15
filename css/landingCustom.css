@@ -25,8 +25,8 @@ body {
 .jumbotron img {
     display: inline;
     float: left;
-    margin-top: 368px;
-    margin-left: 50px;
+    margin-top: 401px;
+    /*margin-left: 50px; */
     background-color: rgb(255,255,255);
     padding: 20px 30px;
     border-radius: 20px;
